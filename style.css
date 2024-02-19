@@ -25,3 +25,7 @@ header.fixed .btn_humberger_box { opacity: 1; -webkit-transition-delay: 0s; tran
 .nav_home { font-size: 1.7rem; font-weight: bold; }
 .nav_box .link_ig { font-size: 1.4rem; font-weight: 700; line-height: 1.25; margin-top: 20px; }
 .nav_box .link_ig .ico_ig { margin-right: 5px; }
+
+
+.top_andy { background: #EBEBEB; }
+.top_andy > .inner { width: 51.2%; margin: 0 auto; padding: 100px 0 116px; }
