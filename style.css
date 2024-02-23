@@ -5,14 +5,134 @@
 
 }
 
-.top_andy{ background-color: #EBEBEB; }
-.top_andy_ttl{ font-size: 60px;}
+.top_andy { background-color: #EBEBEB; }
+.top_andy > .inner { width: 100%;
+                     margin: 0 auto;
+                     padding: 100px 0 116px; 
+                    }
 
-.top_shop{
-    background-color: #EBEBEB;
+.top_andy_illust img { width: 100%; }
+
+.top_andy_illust { width: 34.37%;
+                   min-width: 202px;
+                   max-width: 303px;
+                   margin: 0 auto; 
+                }
+
+.top_andy_ttl { font-size: 40px;
+                text-align: center;
+                margin-top: 77px;
+                line-height: 1;
+                white-space: nowrap;
+                font-family: futura-pt-bold, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                color: #333333;
+            }
+
+            
+.top_andy_ttl_ja { font-size: 20px;
+                   text-align: center; 
+                   margin-top: 8px; font-weight: 700; 
+                   white-space: nowrap;
+                   font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+                   font-style: normal;
+                   color: #333333;
+                }
+
+.top_andy_txt { font-size: 18px;
+                text-align: center; 
+                margin-top: 100px;
+                font-weight: 700; 
+                white-space: nowrap;
+                font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+                font-style: normal;
+                color: #333333; 
+            }
+
+.top_andy .link_more { text-align: center;
+                      margin-top: 59px;
+                      font-family: futura-pt-bold, sans-serif;
+                      font-style: normal;
+                      color: #333333;
+                    }
+
+.top_andy .link_more img {  width: 12px;
+                            height: 12px;
+                        }
+
+.top_seiji > .inner { width: 100%;
+                     margin: 0 auto;
+                     padding: 100px 0 116px; 
+                    }
+
+.top_seiji_illust img { width: 100%; }
+
+.top_seiji_illust { width: 26.35%;
+                    min-width: 155px;
+                    max-width: 232x;
+                    margin: 0 auto 82px;      
+                }
+
+.top_seiji_ttl { font-size: 40px;
+   text-align: center;
+   margin-top: 77px;
+   line-height: 1;
+   white-space: nowrap;
+   font-family: futura-pt-bold, sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #333333;
 }
 
-.footer{
-    background-color: #EBEBEB;
+.top_seiji_ttl_ja { font-size: 16px;
+    text-align: center; 
+    margin-top: 8px; font-weight: 700; 
+    white-space: nowrap;
+    font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    font-style: normal;
+    color: #333333;
+ }
 
+ .top_seiji_txt { font-size: 14px;
+    text-align: center; 
+    margin-top: 49px;
+    font-weight: 700; 
+    white-space: nowrap;
+    font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    font-style: normal;
+    color: #333333; 
 }
+
+.top_seiji .link_more { text-align: center;
+    margin-top: 59px;
+    font-family: futura-pt-bold, sans-serif;
+    font-style: normal;
+    color: #333333;
+  }
+
+.top_shop_wrapper {
+    background-color: #EBEBEB;
+}
+.shop_item_list { display: flex;}
+
+.shop_item_list img { display: flex;
+                  width: 218px;
+                  height: 218px;
+                  margin: 10px;
+                  text-align: center;
+                 }
+
+.news_item_txt  { display: flex;}
+.news_item_ph img { display: flex;
+                    width: 90px;
+                    height: 90px;
+                    text-align:center;
+                }
+
+.footer {background-color: #EBEBEB;}
+.footer_logo { text-align: center;}
+.footer_copyrights { text-align: center; }
+.footer_copyrights img  { width: 141px;
+                          height: 160px;
+                    }
