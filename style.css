@@ -11,13 +11,18 @@
 }
 .header_illust img {width: 100%; }
 .global_nav {
+    color: #333333;
     position: sticky;
     top: 100px;
     padding: 150px 71px;    
 }
 
-.main_nav {
+.main_nav{
     list-style: none;
+}
+.main_nav a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .top_main {
