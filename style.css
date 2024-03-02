@@ -148,11 +148,7 @@
 
 .top_seiji {
     background-color: #FFFFFF;
-    height: 641px;
     width: 100%;
-}
-.top_seiji > inner{
-
 }
 
 .top_seiji_illust img { width: 100%; }
@@ -163,7 +159,7 @@
 }
 
 .top_seiji_ttl {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
     margin-top: 77px;
     line-height: 1;
@@ -174,7 +170,7 @@
 }
 
 .top_seiji_ttl_ja { 
-    font-size: 16px;
+    font-size: 8px;
     text-align: center; 
     margin-top: 8px; font-weight: 700; 
     font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
@@ -183,7 +179,7 @@
 }
 
  .top_seiji_txt { 
-    font-size: 18px;
+    font-size: 16px;
     text-align: center; 
     margin-top: 49px;
     font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
@@ -192,11 +188,17 @@
 }
 
 .top_seiji .link_more { 
-    text-align: left;
-    margin-top: 59px;
+    text-align: center;
+    margin-top: 29px;
     font-family: futura-pt-bold, sans-serif;
+    font-size: 25px;
     font-weight: 700;
     font-style: normal;
+    color: #333333;
+    padding-right: 26px;
+}
+
+.link_more{
     color: #333333;
 }
 
@@ -206,9 +208,11 @@
     margin-left:10px; 
 }
 
-.link_more a { 
+.link_more a {
+    color: inherit; 
     font-size: 20px; 
     line-height: 3;
+    text-decoration: none;
 }
 
 
@@ -216,32 +220,34 @@
     background-color: #EBEBEB;
     height: 1172px;
     width: 100%;
+    padding: 107px 0 176px;
+
 }
 
-.top_shop_inner { 
-    color: #333333;
-    height: 693px;
-    width: 779px;
-    margin-left: 71px;
-}
-
-.top_shop_inner a{
+.top_shop_inner a {
     color: inherit;
     font-size: 50px;
     text-decoration: none;
-    padding-left: 40px;
+    padding-right: 40px;
+    width: 779px;
+    height: 693px;
+    margin: 0 168px 48px;
 }
 
-.shop_item{
-    list-style: none;
-}
-
-.shop_item_list { 
+.shop_item_list {
     display: flex;
+    width: 693.4px;
+    height: 674.3px;
     margin-top: 55px;
+    list-style:none;
 }
+
 .shop_item_ph img {
-}  
+    width: 218px;
+    height: 287px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
 
 .top_news{
     background-color: #FFFFFF;
