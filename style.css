@@ -143,7 +143,7 @@
 .top_seiji {
     background-color: #FFFFFF;
     width: 100%;
-    height: 641.5px;
+    height: 741.5px;
 }
 
 .top_seiji_inner {
@@ -216,24 +216,33 @@
     background-color: #EBEBEB;
     height: 1062px;
     width: 100%;
+}
+
+.top_shop_inner {
+    color: #333333;
+    height: 837px;
+    width: 1062px;
+    margin: 0 167.5px;
     padding: 107px 0 176px;
 }
 
 .top_shop_inner a {
-    color: inherit;
     font-size: 50px;
+    color: inherit; 
     text-decoration: none;
-    width: 779px;
-    height: 693px;
-    margin: 0 auto;
+    padding-right: 30px;
+}
+
+.top_shop_inner img {
+    height: 23px;
+    width: 23px;
+    margin-bottom: 25px;
 }
 
 .shop_item_list {
     display: flex;
     list-style:none;
     flex-wrap: wrap;
-    height: 674.3px;
-    margin-top: 55px;
 }
 
 .shop_item {
@@ -241,24 +250,9 @@
 }
 
 .shop_item_ph a {
-    color: #333333;
     font-size: 33px;
-    width: 60px;
-    height: 42px;
-    margin-top: 12px;
 }
 
-.shop_item_ph img {
-    width: 260px;
-    height: 287px;
-    margin-bottom: 50px;
-}
-
-.top_news {
-    background-color: #FFFFFF;
-    height: 950px;
-    width: 100%;
-}
 
 .news_item_txt  { display: flex;}
 .news_item_ph img {
