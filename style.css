@@ -206,7 +206,7 @@
     color: #333333;
     height: 693px;
     width: 779px;
-    margin: 0 167px;
+    margin: 0 71.7px;
     padding: 107px 0 176px;
 }
 
@@ -220,12 +220,13 @@
 .top_shop_inner img {
     height: 23px;
     width: 23px;
-    margin-bottom: 25px;
+    margin-bottom: 15px; 
 }
 
 .shop_item_list {
     height: 674px;
-    width: 693px;
+    width: 700px;
+    margin-top: 55px;
     display: flex;
     list-style:none;
     flex-wrap: wrap;
@@ -236,10 +237,26 @@
 }
 
 .shop_item_ph img {
-
+    height: 213px;
+    width: 213px;
 }
 
+.shop_item_cat {
+    width: 218px;
+    height: 33px;
+    font-size: 33px;
+    margin-top: 12px; 
+}
 
+.shop_item_cat img {
+    height: 14px;
+    width: 14px;
+}
+.shop_item_ttl a {
+    font-size: 13px;
+    height: 26px;
+    width: 218px;
+}
 
 .news_item_txt  { display: flex;}
 .news_item_ph img {
