@@ -119,32 +119,20 @@
     width: 100%;
 }
 
-.top_main_anim {
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.swiper_wrapper {
     display: flex;
-    overflow: hidden;
-}
-.top_main_anim_box {
-    display: flex;
-    animation: loop-list 100s linear infinite;
-    padding-left:0;
+    transition-timing-function: linear;
+
 }
 
-.top_main_anim_box li{
-    list-style:none;
-}
-
-@keyframes loop-list {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-.top_main_anim_box img {
-    width: 100%;
-    animation-delay: 10s;
+.swiper-slide img {
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
 }
 
 .top_main_logo img {
