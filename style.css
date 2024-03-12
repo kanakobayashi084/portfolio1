@@ -101,15 +101,17 @@
     width: 74.245px;    
 }
 
-.nav06 li {
-    list-style-image: url("images/icon_camera.jpeg");
-}
-
 .nav06_link {
     font-size: 13px;
     height: 17px;
     width: 97.88px;
     margin-right: 9px; 
+}
+
+.nav06_link img {
+    height: 25px;
+    width: 30px;
+    padding-right: 10px;
 }
 
 /*main*/
@@ -124,12 +126,11 @@
 }
 
 .swiper_wrapper {
-    display: flex;
     transition-timing-function: linear;
-
 }
 
 .swiper-slide img {
+    display: flex;
     width: 25%;
     height: 25%;
     object-fit: cover;

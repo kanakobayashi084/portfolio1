@@ -1,6 +1,6 @@
-new Swiper('.swiper', {
+const swiper = new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 1,
+    slidesPerView: 3,
     speed: 10000,
     allowTouchMove: false,
     loopedSlides: 2,
