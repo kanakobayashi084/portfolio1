@@ -127,10 +127,10 @@
 
 .swiper_wrapper {
     transition-timing-function: linear;
+    display: flex;
 }
 
 .swiper-slide img {
-    display: flex;
     width: 25%;
     height: 25%;
     object-fit: cover;
@@ -193,9 +193,14 @@
     color: #333333; 
 }
 
-.top_and_link span { 
-    font-size: 25px;
+.top_andy_linkmore {
+    height: 25px;
+    width: 848.39px;
     margin-top: 59px;
+}
+
+.top_andy_link span { 
+    font-size: 25px;
     font-family: futura-pt-bold, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -204,7 +209,7 @@
     padding-right: 26px;
 }
 
-.link_more img {
+.top_andy_link img {
     text-align: center; 
     width: 12px;
     height: 12px;
@@ -251,13 +256,13 @@
     height: 192px;
     font-size: 16px;
     text-align: left; 
-    margin-top: 49px;
+    margin-top: 20px;
     font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
     font-style: normal;
     color: #333333;
 }
 
-.top_seiji_link { 
+.top_seiji_link span { 
     text-align: left;
     margin-top: 15px;
     font-family: futura-pt-bold, sans-serif;
@@ -265,7 +270,14 @@
     font-weight: 700;
     font-style: normal;
     color: #333333;
+    text-decoration: none;
     padding-right: 26px;
+}
+
+.top_seiji_link img {
+    width: 12px;
+    height: 12px;
+    margin-left:10px; 
 }
 
 .top_shop_wrapper {
@@ -308,12 +320,18 @@
     width: 33.3%;
 }
 
+.shop_item_ph a {
+    font-size: 13px;
+    height: 26px;
+    width: 218px;
+}
+
 .shop_item_ph img {
     height: 213px;
     width: 213px;
 }
 
-.shop_item_cat {
+.shop_item_cat span {
     width: 218px;
     height: 33px;
     font-size: 33px;
@@ -323,11 +341,6 @@
 .shop_item_cat img {
     height: 14px;
     width: 14px;
-}
-.shop_item_ttl a {
-    font-size: 13px;
-    height: 26px;
-    width: 218px;
 }
 
 /* top_news */
@@ -341,7 +354,7 @@
     display: flex;
     height: 862px;
     width: auto;
-    margin-top: 38px;
+    margin: 38px 0 0;
 }
 
 .common_hd_font_en_uppercase {
@@ -451,23 +464,22 @@
     margin-top: 11px;
 }
 
-.top_news_link {
+.top_news_linkmore {
     text-align: right;
     height: 25px;
     width: 515.94px;
     margin-top: 33px;
 }
 
-.top_news_link a {
+.top_news_linkmore a {
     height: 33px;
     width: 90.53px;
     color: inherit;
     font-size: 25px;
     text-decoration: none;
-    margin: 0 26px;
 }
 
-.top_news_link img {
+.top_news_linkmore img {
     height: 12.41px;
     width: 12.41px;
 }
