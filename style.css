@@ -117,12 +117,8 @@
 /*main*/
 .top_main {
     background-color: #FFFFFF;
-    height: 773px;
+    height: 100vh;
     width: 100%;
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
 }
 
 .swiper_wrapper {
@@ -130,15 +126,9 @@
     display: flex;
 }
 
-.swiper-slide img {
-    width: 25%;
-    height: 25%;
-    object-fit: cover;
-}
-
 .top_main_logo img {
     width: 204px;
-    height: auto;
+    height: 204px;
     position: absolute;
     top: 630.125px;
     right: 37.266px;
