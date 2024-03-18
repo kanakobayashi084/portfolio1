@@ -118,11 +118,11 @@
 .top_main {
     background-color: #FFFFFF;
     height: 100vh;
-    width: 100%;
 }
 
 .swiper_wrapper {
     transition-timing-function: linear;
+    display: flex;
 }
 
 .top_main_logo img {
