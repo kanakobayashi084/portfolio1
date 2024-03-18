@@ -123,7 +123,6 @@
 
 .swiper_wrapper {
     transition-timing-function: linear;
-    display: flex;
 }
 
 .top_main_logo img {
@@ -138,12 +137,11 @@
 
 .top_andy { 
     background-color: #EBEBEB;
-    height: 899px;
     width: 100%;   
 }
 
 .top_andy_inner { 
-    margin: 0 285.9px;
+    margin: 0 auto;
     padding: 100px 0 116px;
     text-align: center;
 }
@@ -209,11 +207,10 @@
 .top_seiji {
     background-color: #FFFFFF;
     width: 100%;
-    height: 741.5px;
 }
 
 .top_seiji_inner {
-    margin: 140px 311px 156px 310px;
+    margin: 0 auto;
 }
 
 .top_seiji_illust img {
@@ -272,7 +269,6 @@
 
 .top_shop_wrapper {
     background-color: #EBEBEB;
-    height: 1062px;
     width: 100%;
 }
 
@@ -280,7 +276,7 @@
     color: #333333;
     height: 693px;
     width: 779px;
-    margin: 0 71.7px;
+    margin: 0 auto;
     padding: 107px 0 176px;
 }
 
@@ -335,16 +331,14 @@
 
 /* top_news */
 .top_news {
-    height: 950px;
     width: 100%;
-    margin: 190px 167.4px 0;
 }
 
 .top_news_body {
     display: flex;
     height: 862px;
     width: auto;
-    margin: 38px 0 0;
+    margin: 0 auto;
 }
 
 .common_hd_font_en_uppercase {
