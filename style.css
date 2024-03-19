@@ -478,6 +478,8 @@
     right: 41px;
     bottom: 42px;
     left: 1047.9px;
+    /*デフォルトは非表示*/
+    opacity: 0;
 }
 
 .Page_Top img {
