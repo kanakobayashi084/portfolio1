@@ -118,21 +118,30 @@
 .top_main {
     background-color: #FFFFFF;
     height: 100vh;
+    width: 100%;
 }
 
-.swiper_wrapper {
+
+
+.swiper-wrapper {
     transition-timing-function: linear;
     display: flex;
 }
 
-.top_main_logo img {
-    width: 204px;
-    height: 204px;
+.swiper-slide img {
+    height: 25%;
+    width: 25%;      
+}
+
+.top_main_logo {
     position: absolute;
-    top: 630.125px;
-    right: 37.266px;
     bottom: 54px;
-    left: 930.734px;
+    right: 3.18%;
+    width: 204px;
+}
+
+.top_main_logo img {
+    width: 100%;
 }
 
 .top_andy { 
@@ -468,21 +477,23 @@
     width: 12.41px;
 }
 
-.Page_Top_active {
-    opacity: 1; 
-}
-
-.Page_Top {
+.Page-Top {
     position: fixed;
     top: 667.5px;
-    right: 41px;
+    right: 10px;
     bottom: 42px;
-    left: 1047.9px;
+    left: 1014px;
     /*デフォルトは非表示*/
     opacity: 0;
+    visibility: hidden;
 }
 
-.Page_Top img {
+.Page-Top.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Page-Top img {
     height: 63.5px;
     width: 83px;
 }

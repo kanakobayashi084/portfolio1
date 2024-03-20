@@ -1,17 +1,21 @@
 const swiper = new Swiper('.swiper',{
     loop: true,
-    slidesPerView: 2,
-    speed: 6000,
+    slidesPerView: 1,
+    speed: 15000,
     allowTouchMove: false,
     autoplay: {
         delay: 0,
     }
 });
 
-const pagetop_btn = document.querySelector(".Page_Top_button");
-
-pagetop_btn.addEventListener("click" , scroll_top);
-function scroll_top() {
-    window.scroll({ top: 0, behavior: "smooth" });
-}
-
+const pagetop =
+document.querySelector('.Page-Top');
+window.addEventListener('scroll' , () =>{
+    let scroll_Y = window.scrollY;
+    if(scroll_Y > 150) {
+        pagetop.classList.add('active');
+    }
+    else {
+        pagetop.classList.remove('active');                
+    }
+});
