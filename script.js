@@ -10,6 +10,7 @@ const swiper = new Swiper('.swiper',{
 
 const pagetop =
 document.querySelector('.Page-Top');
+
 window.addEventListener('scroll' , () =>{
     let scroll_Y = window.scrollY;
     if(scroll_Y > 150) {
@@ -18,4 +19,11 @@ window.addEventListener('scroll' , () =>{
     else {
         pagetop.classList.remove('active');                
     }
+});
+
+pagetop.addEventListener('click' , () =>{
+    window.scroll ({
+        top: 0,
+        behavior: "smooth",
+    });
 });
