@@ -135,39 +135,31 @@
 
 .top_andy { 
     background-color: #EBEBEB;
-    width: 100%;   
 }
 
-.top_andy_inner { 
+.top_andy >.top_andy_inner { 
     margin: 0 auto;
     padding: 100px 0 116px;
     text-align: center;
+    width: 51.2%;
 }
 
-.top_andy_illust img { width: 100%; }
-
-.top_andy_illust {
-    width: 34.37%;
-    margin: 0 auto; 
-}
-                   
-.top_andy_ttl { 
-    font-size: 45px;
-    margin-top: 77px;
-    line-height: 1;
-    font-family: futura-pt-bold, sans-serif;
-    font-weight: 700;
+.top_andy_illust { width: 100%; }
+                
+.top_andy_ttl {
+    color: #333333;    
+    font-size: 3.0rem;
     font-style: normal;
-    color: #333333;
+    line-height: 1;
+    margin-top: 77px;
 }
            
-.top_andy_ttl_ja { 
-    font-size: 20px;
-    margin-top: 8px; 
-    font-weight: 700;
-    font-family:'Noto Sans JP', 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+.top_andy_ttl_ja {
+    color: #333333; 
+    font-size: 16x;
     font-style: normal;
-    color: #333333;
+    font-weight: 700;
+    margin-top: 8px;
 }
 
 .top_andy_txt {
