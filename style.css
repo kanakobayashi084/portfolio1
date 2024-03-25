@@ -107,6 +107,18 @@
     text-decoration: none;
 }
 
+@media screen and(max-width: 480px) {
+    .header_illust img {
+        height: 30px; 
+        position: fixed; 
+        top: 25px;
+        right: 281.562px;
+        bottom: 630.906px;
+        left: 25.708px;
+        width: 78px;
+    }
+}
+
 /*main*/
 .top_main {
     background-color: #FFFFFF;
@@ -514,4 +526,12 @@
 .footer_copyrights img {
     height: 300px;
     width: 200px;
+}
+
+@media screen and(max-width: 480px) {
+
+}
+
+@media screen and(max-width: 768px) {
+    
 }
