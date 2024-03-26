@@ -107,6 +107,36 @@
     text-decoration: none;
 }
 
+.humberger {
+    position: fixed;
+    top: 10px;
+    right: 61px;
+}
+
+.btn_humberger {
+    height: 32px;
+    position: relative;
+    width: 40px;
+}
+
+.btn_humberger span {
+    background: #000000;
+    display: block;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.btn_humberger span:nth-child(1) {
+    top:0;
+}
+
+.btn_humberger span:nth-child(2) {
+    top:50%;
+    transform: transLateY(-50%);
+}
+
 @media screen and(max-width: 480px) {
     .header_illust img {
         height: 30px; 
