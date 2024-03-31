@@ -362,10 +362,7 @@
     padding: 107px 0 176px;
     width:71.42%;
 }
-.top_shop > .top_shop_inner {
-    margin: 0 auto;
-    width: 779px;
-}
+
 .top_shop_inner a {
     color: inherit; 
     font-size: 2.5rem;
@@ -375,9 +372,9 @@
     text-decoration: none;
 }
 .top_shop_inner img {
-    height: 23px;
+    height: 15px;
     margin-bottom: 20px; 
-    width: 23px;
+    width:  15px;
 }
 .shop_item_list {
     display: flex;
