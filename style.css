@@ -386,6 +386,30 @@
     margin-bottom: 50px;
     width: 31.46%;
 }
+
+@media screen and (max-width: 484px) {
+    .top_shop {
+        margin: 78px auto 0;
+        padding: 52px 0 46px;
+        width: auto;
+    }
+    .top_shop_inner a {
+        font-size: 1.5rem;
+        line-height: 1;
+        text-align: center;
+    }
+    .shop_item_list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style:none;
+        margin-top: 55px;
+    }
+    .shop_item {
+        margin-bottom: 50px;
+        width: 50%;
+    }
+}
+
 .shop_item_ph a {
     font-size: 13px;
     height: 26px;
@@ -548,7 +572,7 @@
 @media screen and (max-width: 480px) {
     .Page-Top {
         position: fixed;
-        top: 568.578px;
+        top: 10px;
         right: 16.938px;
         /*デフォルトは非表示*/
         opacity: 0;
