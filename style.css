@@ -390,17 +390,6 @@
     width: 31.46%;
 }
 
-.shop_item_ph a {
-    font-size: 13px;
-    height: 26px;
-    width: 218px;
-}
-
-.shop_item_ph img {
-    height: 230px;
-    width: 230px;
-}
-
 .shop_item_cat span {
     display: flex;
     font-size: 1.7rem;
@@ -408,10 +397,19 @@
     margin-top: 12px;
 }
 
-.shop_item_cat img {
+.shop_item_cat span img {
     height: 14px;
     margin-left: 10px;
     width: 14px;
+}
+
+.shop_item_ttl span {
+    font-size: 13px;
+}
+
+.shop_item_ph img {
+    height: 230px;
+    width: 230px;
 }
 
 @media screen and (max-width: 484px) {
@@ -476,7 +474,7 @@
 .top_post {
     width: 74.28%;
 }
-.tab_btn_active {
+.tab_btn1 {
     background-color: #333333;
     border: 1px;
     border-radius: 9999px;
@@ -487,7 +485,7 @@
     width: 40.98px;
     list-style: none;
 }
-.tab_btn1 {
+.tab_btn2 {
     border-radius: 9999px;
     border: 1px solid #333333;
     color: #333333;
@@ -498,7 +496,7 @@
     margin-top: 16px;
     list-style: none;
 }
-.tab_btn2 {
+.tab_btn3 {
     border-radius: 9999px;
     border: 1px solid #333333;
     color: #333333;
@@ -509,7 +507,7 @@
     margin-top: 16px;
     list-style: none;
 }
-.tab_btn3 {
+.tab_btn4 {
     border-radius: 9999px;
     border: 1px solid #333333;
     color: #333333;
@@ -584,6 +582,36 @@
     margin-left:10px;
     width: 12.41px;
 }
+
+@media screen and (max-width: 484px) {
+    .common_hd_fonten {
+        font-size: 1.5rem;
+        line-height: 1;
+        text-align: center;
+    }
+    .top_news_body {
+        display: block;
+        justify-content: space-between;
+        margin-top: 34px;
+    }
+    .top_news_tab {
+        width: auto;
+    }
+    .top_news_tab ul {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .news_item_ttl {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-top: 11px;
+    }
+    .top_news_linkmore {
+        margin-top: 33px;
+        text-align: center;
+    }
+}
+
 .Page-Top {
     position: fixed;
     top: 667.5px;
@@ -591,17 +619,6 @@
     /*デフォルトは非表示*/
     opacity: 0;
     visibility: hidden;
-}
-
-@media screen and (max-width: 480px) {
-    .Page-Top {
-        position: fixed;
-        top: 10px;
-        right: 16.938px;
-        /*デフォルトは非表示*/
-        opacity: 0;
-        visibility: hidden;
-    }
 }
 
 .Page-Top.active {
@@ -612,6 +629,19 @@
     height: 63.5px;
     width: 83px;
 }
+
+@media screen and (max-width: 480px) {
+    .Page-Top {
+        position: fixed;
+        right: 3.5%;
+        bottom: 30px;
+        /*デフォルトは非表示*/
+        opacity: 0;
+        visibility: hidden;
+        width: 62px;
+    }
+}
+
 .footer_logo  {
     background-color: #EBEBEB;
     height: 850px;
@@ -633,6 +663,7 @@
     height: 300px;
     width: 200px;
 }
+
 /*
 @media screen and (max-width: 484px) {
 }
