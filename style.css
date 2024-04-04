@@ -157,6 +157,14 @@
 .top_main_logo img {
     width: 100%;
 }
+
+@media screen and (max-width: 484px) {
+    .swiper-slide img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
 .top_andy { 
     background-color: #EBEBEB;
     color: #333333; 

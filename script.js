@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper',{
     loop: true,
     slidesPerView: 1,
-    speed: 15000,
+    speed: 10000,
     allowTouchMove: false,
     autoplay: {
         delay: 0,
