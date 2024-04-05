@@ -101,37 +101,46 @@
     text-decoration: none;
 }
 
-/*
-.humberger {
-    position: fixed;
-    top: 10px;
-    right: 61px;
+@media screen and (max-width: 484px) {
+    .btn_hamberger {
+        background-color: #FFFFFF;
+        cursor: pointer;
+        height: 80px;
+        position: relative;
+        appearance: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        width:50px;
+    }
+    .btn_hamberger span,
+    .btn_hamberger span::after {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 3px;
+        width: 100%;
+        background: #333333;
+        transition: all 0.5s;
+    }
+    .btn_hamberger span::before {
+        top: -10px;
+    }
+    .btn_hamberger span::after {
+        bottom: -10px;
+    }
+    .btn_hamberger.open span {
+        background-color: transparent;
+    }
+    .btn_hamberger.open span::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+    .btn_hamberger.open span::after {
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
 }
-
-.btn_humberger {
-    height: 32px;
-    position: relative;
-    width: 40px;
-}
-
-.btn_humberger span {
-    background: #000000;
-    display: block;
-    height: 4px;
-    position: absolute;
-    left: 0;
-    width: 100%;
-}
-
-.btn_humberger span:nth-child(1) {
-    top:0;
-}
-
-.btn_humberger span:nth-child(2) {
-    top:50%;
-    transform: transLateY(-50%);
-}
-*/
 
 /*main*/
 .top_main {
@@ -484,12 +493,14 @@
 }
 .tab_btn1 {
     background-color: #333333;
-    border: 1px;
+    border: 1px ;
     border-radius: 9999px;
     color: #FFFFFF;
     font-size: 14px;
     height: 22px;
     padding: 3px 10px;
+    margin-top: 16px;
+    margin-right: 5px;
     width: 40.98px;
     list-style: none;
 }
@@ -502,6 +513,7 @@
     width: 59.73px;
     padding: 3px 10px;
     margin-top: 16px;
+    margin-right: 5px;
     list-style: none;
 }
 .tab_btn3 {
@@ -513,6 +525,7 @@
     width: 62.08px;
     padding: 3px 10px;
     margin-top: 16px;
+    margin-right: 5px;
     list-style: none;
 }
 .tab_btn4 {
@@ -524,6 +537,7 @@
     width: 92.08px;
     padding: 3px 10px;
     margin-top: 16px;
+    margin-right: 5px;
     list-style: none;
 }
 .news_item {
@@ -609,10 +623,16 @@
         display: flex;
         margin-bottom: 20px;
     }
+    .news_item_meta  {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
     .news_item_ttl {
         font-size: 14px;
         line-height: 1.5;
         margin-top: 11px;
+        margin-left: 15px;
     }
     .top_news_linkmore {
         margin-top: 33px;

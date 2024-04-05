@@ -8,6 +8,21 @@ const swiper = new Swiper('.swiper',{
     }
 });
 
+/*
+"use strict";
+{
+    const button =
+    document.querySelector('.btn_hamburger');
+    const nav =
+    document.querySelector('.global_nav');
+
+        button.addEventListener('click',
+        function () {
+            button.classList.toggle('open');
+            nav.classList.toggle('open');
+        });
+}
+*/
 const pagetop =
 document.querySelector('.Page-Top');
 
