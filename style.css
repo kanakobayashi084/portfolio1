@@ -69,12 +69,12 @@
 }
 
 @media screen and (max-width: 484px) {
-    .hamberger {
-        position: fixed;
-        top: 50px;
-        right: 10px;
+    .global_nav {
+        padding-top: 150px;
+        padding-left: 60.645px;    
     }
-    .btn_hamberger {
+
+    .btn_hamburger {
         cursor: pointer;
         height: 80px;
         position: relative;
@@ -84,8 +84,9 @@
         margin: 0;
         width:50px;
     }
-    .btn_hamberger span,
-    .btn_hamberger span::after {
+
+    .btn_hamburger span,
+    .btn_hamburger span::after {
         position: absolute;
         display: block;
         content: "";
@@ -94,17 +95,21 @@
         background: #333333;
         transition: all 0.5s;
     }
-    .btn_hamberger span {
+
+    .btn_hamburger span {
         top: -10px;
     }
-    .btn_hamberger span::after {
+
+    .btn_hamburger span::after {
         bottom: -10px;
     }
-    .btn_hamberger.open span {
+
+    .btn_hamburger.open {
         top: 0;
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
     }
-    .btn_hamberger.open span::after {
+
+    .btn_hamburger.open span::after {
         bottom: 0;
         transform: rotate(-45deg);
     }
@@ -165,7 +170,6 @@
 
 @media screen and (max-width: 484px) {
     .swiper-slide img {
-        margin-top: 100px;
         height: 86%;
         width: 86%;
     }
