@@ -9,13 +9,6 @@ const swiper = new Swiper('.swiper',{
 });
 
 
-const btn =
-document.querySelector('.btn_hamburger');
-    btn.addEventListener('click', function () {
-        btn.classList.toggle('open');
-});
-
-
 const pagetop =
 document.querySelector('.Page-Top');
 
