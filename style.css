@@ -113,6 +113,11 @@
         transform: translateY(-10px) rotate(45deg);
         width: 100%;
     }
+    .lang_nav {
+        display: flex;
+        list-style: none;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 484px) {
