@@ -80,7 +80,7 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
 
     .hamburger_menu {
         display: block;
@@ -148,7 +148,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .header {
         padding: 25px 32px;
     }
@@ -180,7 +180,7 @@
 .top_main {
     background-color: #FFFFFF;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .swiper-wrapper {
@@ -201,24 +201,17 @@
     width: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .swiper-slide img {
-        height: 70%;
-        width: 70%;
+        height: 100%;
+        width: 100%;
     }
     .top_main_logo {
         position: absolute;
         bottom: 10px;
-        width: 30%;
+        width: 50%;
     }
 }
-
-@media screen and (max-width: 599px) {
-    .swiper {
-        padding-top: 200px;
-    }
-}
-
 
 .top_andy { 
     background-color: #EBEBEB;
@@ -273,7 +266,7 @@
     margin-left:10px; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .top_andy > .top_andy_inner {
         margin: 0 auto;
         padding: 49px 0 70px;
@@ -281,7 +274,7 @@
     }
     .top_andy_illust img { 
         text-align: center;
-        width: 50%;
+        width: 100%;
     }
     .top_andy_ttl h2 {   
         font-size: 1.4rem;
@@ -368,7 +361,7 @@
     margin-left:10px; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .top_seiji_body {
         width: 70.66%;   
         margin: 65px auto 0; 
@@ -474,7 +467,7 @@
     width: 230px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .top_shop {
         margin: 78px auto 0;
         padding: 52px 0 46px;
@@ -514,8 +507,8 @@
         width: 200px;
     }
     .shop_item_ph img {
-        height: 90%;
-        width: 90%;
+        height: 150px;
+        width: 150px;
     }
     .shop_item_ttl span {
         font-size: 13px;
@@ -534,7 +527,7 @@
     width: 80.85%;
 }
 .top_shop_inner {
-    padding: 0 71px;
+    padding: 0 71.781px;
 }
 .common_hd_fonten {
     color: #333333;
@@ -674,14 +667,10 @@
     width: 12.41px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .top_news {
         margin: 190px auto 0;
         width: 71.42%;
-    }
-    .top_shop_inner {
-        padding: 0;
-        width: 100vw;
     }
     .common_hd_fonten {
         font-size: 1.5rem;
@@ -695,7 +684,6 @@
     }
     .top_news_tab ul {
         display: flex;
-        margin-left: 0;
         margin-bottom: 20px;
     }
     .news_item {
@@ -704,23 +692,19 @@
         justify-content: space-between;
         padding: 30px 0;
         text-decoration: none;
-        width: 100%;
+        width: 380px;
     }
     .news_item_meta  {
         display: flex;
         align-items: center;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .news_item_ttl {
         font-size: 14px;
         line-height: 1.5;
         margin-top: 11px;
-        margin-left: 100px;
+        margin-left: 50px;
         width: 272.28px;
-    }
-    .news_item_ph img {
-        width: 200%;
-        height: 200%;
     }
     .top_news_linkmore {
         margin-top: 33px;
@@ -746,7 +730,7 @@
     width: 83px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 484px) {
     .Page-Top {
         top: auto;
         right: 3.5%;

@@ -1,3 +1,10 @@
+const hamburger = document.querySelector('.hamburger_menu');
+const nav = document.querySelector('.global_nav');
+  hamburger.addEventListener('click', function() {
+    hamburger.classList.toggle("open"); //hamburgerにopenクラスを付け外しする
+    nav.classList.toggle("open"); 
+});
+
 const swiper = new Swiper('.swiper',{
     loop: true,
     slidesPerView: 1,
@@ -7,7 +14,6 @@ const swiper = new Swiper('.swiper',{
         delay: 0,
     }
 });
-
 
 const pagetop =
 document.querySelector('.Page-Top');
