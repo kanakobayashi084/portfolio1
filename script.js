@@ -1,3 +1,5 @@
+
+
 const hamburger = document.querySelector('.hamburger_menu');
 const nav = document.querySelector('.global_nav');
   hamburger.addEventListener('click', function() {

@@ -41,7 +41,7 @@
 .main_nav li a {
     color: inherit;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     text-decoration: none;
 }
@@ -69,6 +69,7 @@
 }
 
 .lang_nav {
+    font-size: 13px;
     font-weight: 700;
     list-style: none;
     width: 100%;
