@@ -1,4 +1,12 @@
+function load_effect () {
+    var element = document.getElementsByClassName('header-fade');
+    if(!element) return;
 
+    for(var i = 0; i < element.length; i++) {
+        element[i].classList.add('is-show');
+    }
+}
+setTimeout(load_effect,600);
 
 const hamburger = document.querySelector('.hamburger_menu');
 const nav = document.querySelector('.global_nav');

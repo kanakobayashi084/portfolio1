@@ -2,12 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 /*header*/
-.header {
+.header-fade {
     position: fixed;
     padding: 55px 58px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
     width: 100%;
     z-index: 10;
 }
+
+.header-fade.is-show {
+    opacity: 1;
+    visibility: visible;
+}
+
 .nav_fix {
     display: flex;
     justify-content: space-between;
@@ -150,7 +159,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .header {
+    .header-fade {
         padding: 25px 32px;
     }
 
@@ -193,11 +202,20 @@
     width: 50%;      
 }
 .top_main_logo {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
     position: absolute;
     bottom: 54px;
     right: 3.18%;
     width: 204px;
 }
+
+.top_main_logo.is-show {
+    opacity: 1;
+    visibility: visible;
+}
+
 .top_main_logo img {
     width: 100%;
 }
