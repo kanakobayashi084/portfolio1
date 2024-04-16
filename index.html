@@ -10,55 +10,57 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="header-fade">
-            <div class="nav_fix">
-                <h1 class="header_illust">
-                    <img alt="Seiji Matsumoto / Andy The Mouse" src="images/cheese_64px_2.png">
-                </h1>
-                <div class="sp_headerright">
-                    <ul class="nav_fix_home">
-                        <li class="lang_nav">
-                            <span class="nav_jp">JP</span>
-                        </li>
-                        <li class="lang_nav">
-                            <a class="lang_en" href="https://andythemouse.com/en/">EN</a>
-                        </li>
-                    </ul>
-                    <div class="hamburger_menu">
-                        <span></span>
-                        <span></span>
+        <header class="header">
+            <div class="fadeScreen">
+                <div class="nav_fix">
+                    <h1 class="header_illust">
+                        <img alt="Seiji Matsumoto / Andy The Mouse" src="images/cheese_64px_2.png">
+                    </h1>
+                    <div class="sp_headerright">
+                        <ul class="nav_fix_home">
+                            <li class="lang_nav">
+                                <span class="nav_jp">JP</span>
+                            </li>
+                            <li class="lang_nav">
+                                <a class="lang_en" href="https://andythemouse.com/en/">EN</a>
+                            </li>
+                        </ul>
+                        <div class="hamburger_menu">
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </div>
+                <nav class="global_nav">
+                    <div class ="nav_home">
+                        <ul class="main_nav">
+                            <li id="nav01">
+                                <a href="https://andythemouse.com/andy/">ANDY THE MOUSE</a>
+                            </li>
+                            <li id="nav02">
+                                <a href="https://andythemouse.com/seijimatsumoto/">SEIJI MATSUMOTO</a>
+                            </li>
+                            <li id="nav03">
+                                <a href="https://www.andythemouse.shop/" target="_blank" class="nav03link_external">
+                                    ONLINE SHOP
+                                    <span class="nav03_link"><img alt src="images/sozai_arrow.png"></span>
+                                </a>
+                            </li>
+                            <li id="nav04">
+                                <a href="https://andythemouse.com/news/">NEWS</a>
+                            </li>
+                            <li id="nav05">
+                                <a href="https://andythemouse.com/contact/">CONTACT</a>
+                            </li>
+                        </ul>
+                        <div class ="nav06">
+                                <a href="https://www.instagram.com/andy_the_mouse_jp/" target="_blank">
+                                    <span class="nav06_link"><img alt src="images\icon_camera2.png">Instagram</span>
+                                </a>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <nav class="global_nav">
-                <div class ="nav_home">
-                    <ul class="main_nav">
-                        <li id="nav01">
-                            <a href="https://andythemouse.com/andy/">ANDY THE MOUSE</a>
-                        </li>
-                        <li id="nav02">
-                            <a href="https://andythemouse.com/seijimatsumoto/">SEIJI MATSUMOTO</a>
-                        </li>
-                        <li id="nav03">
-                            <a href="https://www.andythemouse.shop/" target="_blank" class="nav03link_external">
-                                ONLINE SHOP
-                                <span class="nav03_link"><img alt src="images/sozai_arrow.png"></span>
-                            </a>
-                        </li>
-                        <li id="nav04">
-                            <a href="https://andythemouse.com/news/">NEWS</a>
-                        </li>
-                        <li id="nav05">
-                            <a href="https://andythemouse.com/contact/">CONTACT</a>
-                        </li>
-                    </ul>
-                    <div class ="nav06">
-                            <a href="https://www.instagram.com/andy_the_mouse_jp/" target="_blank">
-                                <span class="nav06_link"><img alt src="images\icon_camera2.png">Instagram</span>
-                            </a>
-                    </div>
-                </div>
-            </nav>
         </header>
         <main>   
             <section class="top_main">
@@ -72,8 +74,10 @@
                         <div class="swiper-slide"><img alt src="images/topmain_slide06.png"></div>
                     </div>
                 </div>
-                <div class="top_main_logo">
-                    <img art="logo" src="images/img_logo2.png">
+                <div class="fadeScreen">
+                    <div class="top_main_logo">
+                        <img art="logo" src="images/img_logo2.png">
+                    </div>
                 </div>
             </section>
             <section class="top_andy">
@@ -81,13 +85,12 @@
                     <div class="top_andy_illust">
                         <img art src="images/illust_cheese.png">
                     </div>
-                    <div class="top_andy_ttl font_en uppercase">
+                    <div class="top_andy_ttl">
                         <h2>ANDY THE MOUSE</h2>
                     </div>
                     <div class="top_andy_ttl_ja">
                         <h2>ねずみのANDY</h2>
                     </div>
-                    <div class="andylink_more">
                         <p class="top_andy_txt">
                             しっぽのないねずみの男の子。
                             <br>
@@ -97,9 +100,8 @@
                             <br>
                             好きなことは、チーズに挟まること。
                         </p>
-                        <div class ="top_andy_linkmore">
-                            <a class="top_andy_link" href="https://andythemouse.com/andy/"><span class="cat">More<img alt src="images/sozai_arrow2.png"></span></a>
-                        </div>
+                    <div class ="top_andy_linkmore">
+                        <a class="top_andy_link" href="https://andythemouse.com/andy/"><span class="cat">More<img alt src="images/sozai_arrow2.png"></span></a>
                     </div>
                 </div>
             </section>
@@ -115,7 +117,6 @@
                         <div class="top_seiji_ttl_ja">
                             <h2>松本セイジ</h2>
                         </div>
-                        <div class="seiji_linkmore">
                             <p class="top_seiji_txt">
                                 1986年、大阪府生まれ。
                                 <br>
@@ -130,7 +131,6 @@
                                 <span class="cat">More<img alt src="images/sozai_arrow2.png"></span>
                                 </a>
                             </div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -247,7 +247,7 @@
                         <div class="top_news_tab">
                             <ul class="tab_btn_font_en">
                                 <li class="tab_btn1">
-                                    <span>ALL</span>
+                                    <span>All</span>
                                 </li>
                                 <li class="tab_btn2">
                                     <span>Event</span>

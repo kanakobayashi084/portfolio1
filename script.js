@@ -1,12 +1,9 @@
-function load_effect () {
-    var element = document.getElementsByClassName('header-fade');
-    if(!element) return;
+const fades = document.querySelectorAll('.fadeScreen');
+fades.forEach( fadeScreen => {
+    fadeScreen.classList.add('is-show');
+});
+setTimeout(load,600);
 
-    for(var i = 0; i < element.length; i++) {
-        element[i].classList.add('is-show');
-    }
-}
-setTimeout(load_effect,600);
 
 const hamburger = document.querySelector('.hamburger_menu');
 const nav = document.querySelector('.global_nav');
@@ -25,9 +22,7 @@ const swiper = new Swiper('.swiper',{
     }
 });
 
-const pagetop =
-document.querySelector('.Page-Top');
-
+const pagetop = document.querySelector('.Page-Top');
 window.addEventListener('scroll' , () =>{
     let scroll_Y = window.scrollY;
     if(scroll_Y > 150) {

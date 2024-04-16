@@ -2,17 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 /*header*/
-.header-fade {
+.header {
     position: fixed;
     padding: 55px 58px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 1s;
     width: 100%;
     z-index: 10;
 }
 
-.header-fade.is-show {
+.fadeScreen {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 5s;
+}
+.fadeScreen.is-show {
     opacity: 1;
     visibility: visible;
 }
@@ -202,18 +204,10 @@
     width: 50%;      
 }
 .top_main_logo {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 1s;
     position: absolute;
     bottom: 54px;
     right: 3.18%;
     width: 204px;
-}
-
-.top_main_logo.is-show {
-    opacity: 1;
-    visibility: visible;
 }
 
 .top_main_logo img {
@@ -241,36 +235,42 @@
 
 .top_andy { 
     background-color: #EBEBEB;
-    color: #333333; 
+    color: #333333;
+    font-style: normal;
 }
-.top_andy >.top_andy_inner { 
+.top_andy_inner { 
     margin: 0 auto;
     padding: 100px 0 116px;
-    text-align: center;
     width: 51.2%;
 }
-.top_andy_illust { width: 100%; }
-                
-.top_andy_ttl {   
-    font-size: 3.0rem;
-    font-style: normal;
-    line-height: 1;
-    margin-top: 77px;
+.top_andy_illust {
+    margin: 0 auto;
+    width: 34%;
 }
-           
-.top_andy_ttl_ja {
-    font-size: 1.0rem;
-    font-style: normal;
+.top_andy_illust img { 
+    height: 167px;
+    width: 202px
+}
+.top_andy_ttl h2 {
+    font-size: 3.0rem;
+    height: 60px;
+    font-weight: 900;
+    margin-top: 77px;
+    line-height: 1;
+    text-align: center;
+}          
+.top_andy_ttl_ja h2 {
+    font-size: 20px;
     font-weight: 700;
     margin-top: 8px;
+    text-align: center;
 }
-
 .top_andy_txt {
     font-size: 18px;
+    font-weight: 700;
     margin-top: 100px;
-    text-align: center; 
-    font-family:'Noto Sans JP';
-    color: #333333; 
+    text-align: center;
+    line-height: 2;
 }
 .top_andy_linkmore {
     color: inherit;
@@ -299,8 +299,7 @@
         width: 86.66%;
     }
     .top_andy_illust img { 
-        text-align: center;
-        width: 50%;
+        width: auto;
     }
     .top_andy_ttl h2 {   
         font-size: 1.4rem;
@@ -309,13 +308,12 @@
         margin-top: 34px;
     }
     .top_andy_ttl_ja {
-        font-size: 0.8rem;
+        font-size: 20px;
         font-style: normal;
         font-weight: 700;
         margin-top: 0px;
     }
     .top_andy_txt {
-        color: #333333;
         font-size: 14px;
         line-height: 2;
         margin-top: 36px;
@@ -323,7 +321,6 @@
         font-family:'Noto Sans JP';
     }
     .top_andy_linkmore a {
-        color: #333333; 
         font-size: 20px;
         font-style: normal;
         font-weight: 700; 
@@ -334,6 +331,8 @@
 
 .top_seiji {
     background-color: #FFFFFF;
+    color: #333333;
+    font-style: normal;
     width: 100%;
 }
 .top_seiji_body {
@@ -344,40 +343,34 @@
     margin: 0 auto;
     width: 26.35%;
 }
-
 .top_seiji_illust img {
     width: 100%;
 }
-
-.top_seiji_ttl {
-    color: #333333;
-    font-size: 2.5rem;
-    font-style: normal;
+.top_seiji_ttl h2 {
+    font-size: 3.0rem;
     font-weight: 700;
     line-height: 1;
     margin-top: 77px;
     text-align: center; 
 }
-.top_seiji_ttl_ja {
-    color: #333333;
+.top_seiji_ttl_ja h2 {
     font-size: 1.0rem;
-    font-style: normal;
     font-weight: 700; 
     text-align: center; 
     margin-top: 8px; 
 }
 .top_seiji_txt {
-    font-family:'Noto Sans JP';
     font-size: 16px;
     margin-top: 49px;
+    line-height: 2;
 }
 .top_seiji_linkmore {
+    color: inherit;
     margin-top: 29px;
 }
 .top_seiji_linkmore a {
     color: #333333;
     font-size: 25px;
-    font-style: normal;
     font-weight: 700;
     text-decoration: none;
 }
@@ -458,6 +451,7 @@
     height: 15px;
     margin-bottom: 20px; 
     width:  15px;
+    object-fit: cover;
 }
 
 .shop_item_list {
