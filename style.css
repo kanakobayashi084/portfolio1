@@ -237,6 +237,7 @@
     background-color: #EBEBEB;
     color: #333333;
     font-style: normal;
+    width: 100vw;
 }
 .top_andy_inner { 
     margin: 0 auto;
@@ -333,7 +334,7 @@
     background-color: #FFFFFF;
     color: #333333;
     font-style: normal;
-    width: 100%;
+    width: 100vw;
 }
 .top_seiji_body {
     width: 46.93%;   
@@ -431,6 +432,7 @@
 
 .top_shop_wrapper {
     background-color: #EBEBEB;
+    width: 100vw;
 }
 .top_shop {
     margin: 0 auto 0;
@@ -442,9 +444,11 @@
     width: 82.85%;
 }
 .shop_ttl {
+    color: inherit; 
     font-size: 50px;
     font-weight: 700;
     line-height: 1;
+    text-decoration: none;
 }
 .shop_ttl a {
     color: inherit; 
@@ -455,10 +459,10 @@
 .shop_ttl span {
     display: block;
     width: 15px;
-    position: absolute;
-    top: 5px;
-    right: 0;
     line-height: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
 }
 .shop_ttl span img{
     height: 15px;
@@ -471,28 +475,44 @@
     margin-top: 55px;
 }
 .shop_item ul {
-    margin-bottom: 50px;
     width: 30%;
 }
 .shop_item_ph {
     margin-right: 40px;
+    margin-bottom: 50px;
 }
-.shop_item_cat span {
-    display: flex;
-    font-size: 1.7rem;
-    font-weight: 700;
-}
-
-.shop_item_cat span img {
-    height: 14px;
-    margin-left: 10px;
-    width: 14px;
-}
-
 .shop_item_ph img {
     height: 230px;
     width: 230px;
     object-fit: cover;
+}
+.shop_item_cat {
+    margin-top: 12px;
+    font-size: 33px;
+    font-weight: 700;
+}
+.shop_item_cat a {
+    color: inherit;
+    text-decoration: none;
+}
+.shop_item_cat span {
+    display: flex;
+    height: 42px;
+
+}
+.shop_item_cat span img {
+    height: 10px;
+    margin-left: 10px;
+    width: 10px;
+}
+.shop_item_ttl a {
+    height: 26px;
+    color: inherit;
+    text-decoration: none;
+}
+.shop_item_ttl span {
+    font-size: 13px;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
@@ -578,7 +598,7 @@
 
 .tab_btn1 {
     background-color: #333333;
-    border: 1px ;
+    border: 1px;
     border-radius: 9999px;
     color: #FFFFFF;
     font-size: 14px;
@@ -778,22 +798,22 @@
 
 .footer_logo  {
     background-color: #EBEBEB;
-    height: 850px;
     margin-top: 164px;
     padding: 361px 0 46px;
     text-align: center;
-    width: 100%;
+    width: 100vw;
 }
 .footer_logo img {     
-    height: 300px;
+    height: auto;
     width: 300px;
 }
-.footer_copyrights{
+.footer_copyrights {
     background-color: #EBEBEB;
     text-align: center;
-    width: 100%;
+    width: 100vw;
+    padding-bottom: 20px;
 }
 .footer_copyrights img {
-    height: 300px;
+    height: auto;
     width: 200px;
 }
