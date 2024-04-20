@@ -594,8 +594,9 @@
     font-size: 14px;
     font-weight: 700;
     list-style: none;
+    line-height: 1.5;
 }
-.top_news_tab li {
+.top_news_tab button {
     margin-top: 16px;
 } 
 .top_news_tab span {
