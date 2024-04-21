@@ -22,6 +22,34 @@ const swiper = new Swiper('.swiper',{
     }
 });
 
+const btn = document.getElementsByClassName('tab_btn');
+for(var i = btn.length -1; i >= 0; i--) {
+    btnAction(btn[i],i);
+}
+function btnAction(btnDOM,btnId){
+    btnDOM.addEventListener("click", function(){
+    this.classList.toggle('activeOn');
+    for (var i = btn.length -1; i >=0; i--) {
+        if(btnId !== i){
+            if(btn[i].classList.contains('activeOn')){
+                    btn[i].classList.remove('activeOn');
+            }
+        }}
+    })
+}
+
+window.addEventListener('scroll',function(){
+    const scroll = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const screens = document.querySelectorAll('.jsscroll');
+    screens.forEach(function(jsscroll) {
+    const distanceToscreens = jsscroll.offsetTop;
+    if(scroll + windowHeight > distanceToscreens) {
+        jsscroll.classList.add('is-active');
+    }
+});
+});
+
 const pagetop = document.querySelector('.Page-Top');
 window.addEventListener('scroll' , () =>{
     let scroll_Y = window.scrollY;
