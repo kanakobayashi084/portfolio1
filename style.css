@@ -534,15 +534,13 @@
 
 @media screen and (max-width: 768px) {
     .top_shop {
+        width: auto;
         margin: 78px auto 0;
         padding: 52px 0 46px;
     }
-    .shop_ttl {
-        text-align: center;
-    }
-    .top_shop_inner a {
-        font-size: 1.5rem;
-        line-height: 1;
+    .top_shop >.top_shop_inner {
+        margin: 0 auto;
+        width: 86.66%;
     }
     .shop_item_list {
         display: flex;
@@ -550,6 +548,29 @@
         list-style:none;
         margin-top: 36px;
     }
+    .shop_item a {
+        margin-bottom: 32px;
+    }
+    .shop_item_ph > div {
+
+    }
+    .shop_item_ph a  {
+        font-size: 10px;
+        font-weight: 700;
+        width: 200px;
+    }
+    .shop_item_ph img {
+        height: 317px;
+        width: 317px;
+    }
+    .shop_ttl {
+        text-align: center;
+    }
+    .top_shop_inner a {
+        font-size: 30px;
+        line-height: 1;
+    }
+
     .shop_item {
         width: 50%;
     }
@@ -565,15 +586,7 @@
         height: 10px;
         width: 10px;
     }
-    .shop_item_ph a  {
-        font-size: 10px;
-        font-weight: 700;
-        width: 200px;
-    }
-    .shop_item_ph img {
-        height: 90%;
-        width: 90%;
-    }
+
     .shop_item_ttl span {
         font-size: 13px;
         width: 200px;
@@ -632,9 +645,15 @@
     cursor: pointer;
 }
 
-.tab_btn span .activeOn {
+.tab_btn span.activeOn {
     background-color: #333333;
     color: #FFFFFF;
+    display: inline-block;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    line-height: 1;
+    padding: 3px 10px;
+    cursor: pointer;
 }
 
 .news_item {
