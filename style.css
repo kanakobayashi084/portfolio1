@@ -552,7 +552,7 @@
     .shop_item_ph > div {
 
     }
-    .shop_item_ph a  {
+    .shop_item_ph a {
         font-size: 10px;
         font-weight: 700;
         width: 200px;
@@ -596,8 +596,6 @@
 .top_news {
     margin: 190px auto 0;
     width: 71.42%;
-}
-.top_news_inner {
     opacity: 0;
     visibility: hidden;
     transition: all 1s;
@@ -702,7 +700,6 @@
     line-height: 1.5;
     font-size: 24px;
     margin-top: 11px;
-    width: 468.39px;
 }
 .top_news_linkmore {
     margin-top: 33px;
@@ -722,15 +719,15 @@
 
 @media screen and (max-width: 768px) {
     .top_news {
-        margin: 190px auto 0;
-        width: 71.42%;
+        margin: 87px auto 0;
+        width: auto;
     }
-    .top_shop_inner {
-        padding: 0;
-        width: 100vw;
+    .top_news > .top_news_inner {
+        margin: 0 auto;
+        width: 86.66%;
     }
-    .common_hd_fonten {
-        font-size: 1.5rem;
+    .common_hd_fonten h2 {
+        font-size: 30px;
         line-height: 1;
         text-align: center;
     }
@@ -739,10 +736,16 @@
         justify-content: space-between;
         margin-top: 34px;
     }
-    .top_news_tab ul {
+    .tab_btn_fonten {
         display: flex;
         margin-left: 0;
         margin-bottom: 20px;
+    }
+    .tab_btn span {
+        margin-left: 6px;
+    }
+    .top_news_post {
+        width: auto;
     }
     .news_item {
         border-bottom: 1px solid #E6E6E6;
@@ -752,21 +755,24 @@
         text-decoration: none;
         width: 100%;
     }
-    .news_item_meta  {
-        display: flex;
-        align-items: center;
-        margin-left: 100px;
-    }
     .news_item_ttl {
         font-size: 14px;
         line-height: 1.5;
         margin-top: 11px;
-        margin-left: 100px;
-        width: 272.28px;
+    }
+    .news_item_txt {
+        width: 64.92%;
+    }
+    .news_item_meta  {
+        display: flex;
+        align-items: center;
     }
     .news_item_ph img {
-        width: 200%;
-        height: 200%;
+        width: 204px;
+        height: 204px;
+    }
+    .top_news_linkmore a {
+        font-size: 20px;
     }
     .top_news_linkmore {
         margin-top: 33px;
@@ -827,4 +833,14 @@
 .footer_copyrights img {
     height: auto;
     width: 200px;
+}
+@media screen and (max-width: 768px) {
+    .footer_logo {
+        margin-top: 74px;
+        padding: 254px 0 46px;
+    }
+    .footer_copyrights img {
+        height: 15%;
+        width: 15%;
+    }
 }
