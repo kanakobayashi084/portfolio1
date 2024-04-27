@@ -617,7 +617,7 @@
     margin-top: 38px;
 }
 .top_news_tab {
-    width: 14.28%;
+    width: 12%;
 }
 .top_news_post {
     width: 74.28%;
@@ -627,11 +627,10 @@
     font-weight: 700;
     line-height: 1.5;
 }
-.tab_btn_fonten span {
+.tab_btn_fonten button {
     margin-top: 16px;
 }
-
-.tab_btn span {
+.tab_btn {
     background-color: #FFFFFF;
     color: #333333;
     display: inline-block;
@@ -642,7 +641,7 @@
     cursor: pointer;
 }
 
-.tab_btn span.activeOn {
+button.tab_btn.activeOn {
     background-color: #333333;
     color: #FFFFFF;
     display: inline-block;
@@ -651,6 +650,7 @@
     line-height: 1;
     padding: 3px 10px;
     cursor: pointer;
+    pointer-events: none;
 }
 
 .news_item {

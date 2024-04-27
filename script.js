@@ -23,12 +23,13 @@ const swiper = new Swiper('.swiper',{
 });
 
 const btn = document.getElementsByClassName('tab_btn');
-for(var i = btn.length -1; i >= 0; i--) {
+for (var i = btn.length -1; i >= 0; i--) {
     btnAction(btn[i],i);
 }
 function btnAction(btnDOM,btnId){
     btnDOM.addEventListener("click", function(){
     this.classList.toggle('activeOn');
+
     for (var i = btn.length -1; i >=0; i--) {
         if(btnId !== i){
             if(btn[i].classList.contains('activeOn')){
