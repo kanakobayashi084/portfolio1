@@ -622,6 +622,9 @@
 .top_news_post {
     width: 74.28%;
 }
+.news_tab_body_show {
+    list-style: none;
+}
 .tab_btn_fonten {
     font-size: 14px;
     font-weight: 700;
@@ -747,6 +750,10 @@ button.tab_btn.activeOn {
     }
     .top_news_post {
         width: auto;
+        list-style: none;
+    }
+    .All-contents li {
+
     }
     .news_item {
         border-bottom: 1px solid #E6E6E6;
