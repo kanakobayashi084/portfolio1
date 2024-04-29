@@ -3,7 +3,6 @@
 
 /*header*/
 .header {
-    position: fixed;
     padding: 55px 58px;
     width: 100%;
     z-index: 10;
@@ -27,6 +26,7 @@
 }
 
 .header_illust img {
+    position: fixed;
     display: block;
     height: 42px; 
     width: 60px;
@@ -37,9 +37,12 @@
 }
 
 .global_nav {
+    position: inline-block;
     margin: 54px 0 29px;   
 }
-
+.nav_home {
+    position: fixed;
+}
 .main_nav {
     color: #333333;
     list-style: none;
@@ -87,7 +90,6 @@
 }
 .lang_nav a {
     color: #666666;
-    display: flex;
     margin-left: 6.5px;
     text-decoration: none;
 }
@@ -143,7 +145,7 @@
         opacity: 0;
         visibility: hidden;
         margin: 0;
-        z-index: 1;
+        z-index: 4;
         transition: all .2s;
         height: 100vh;
         width: 100vw;
@@ -193,8 +195,8 @@
     display: flex;
 }
 .swiper-slide img {
-    height: 50%;
-    width: 50%;      
+    height: 40%;
+    width: 40%;      
 }
 .top_main_logo {
     position: absolute;
