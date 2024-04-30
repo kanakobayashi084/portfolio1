@@ -322,6 +322,11 @@
         display: block;
     }
 }
+@media screen and (max-width: 599px) {
+    .swiper {
+        width: 100vw;
+    }
+}
 /*top_seiji*/
 .top_seiji {
     background-color: #FFFFFF;
@@ -404,11 +409,10 @@
         text-align: center; 
         margin-top: 0px; 
     }
-    .top_seiji_txt p {
-        font-family:'Noto Sans JP';
+    .top_seiji_txt {
         font-size: 14px;
         line-height: 1.85;
-        margin: 0;
+        margin-top: 36px;
         overflow-wrap: break-word;
         padding: 0;
     }
@@ -425,6 +429,7 @@
         text-decoration: none;
     }
 }
+
 /*top_shop*/
 .top_shop_wrapper {
     background-color: #EBEBEB;
@@ -568,6 +573,12 @@
     .shop_item_ttl span {
         font-size: 13px;
         width: 200px;
+    }
+}
+@media screen and (max-width: 599px) {
+    .shop_item_ph img {
+        height: 247px;
+        width: 247px;
     }
 }
 
@@ -758,6 +769,12 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 599px) {
+    .news_item_txt {
+        width: 64.92%;
+        margin-left: 140px;
+    }
+}
 .is-active {
     opacity: 1;
     visibility: visible;
@@ -790,6 +807,14 @@
         width: 62px;
     }
 }
+@media screen and (max-width: 599px) {
+    .Page-Top {
+        top: auto;
+        right: 5px;
+        bottom: 30px;
+        position: inline-block;
+    }
+}
 /*footer*/
 .footer_logo  {
     background-color: #EBEBEB;
@@ -820,5 +845,14 @@
     .footer_copyrights img {
         height: 15%;
         width: 15%;
+    }
+}
+@media screen and (max-width: 599px) {
+    .footer_logo  {
+        background-color: #EBEBEB;
+        margin-top: 74px;
+        padding: 254px 0 46px;
+        text-align: center;
+        width: 100vw;
     }
 }
