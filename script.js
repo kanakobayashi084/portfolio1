@@ -12,32 +12,61 @@ const nav = document.querySelector('.global_nav');
     nav.classList.toggle("open"); 
 });
 
+
 const swiper = new Swiper('.swiper',{
-    loop: true,
-    slidesPerView: 1,
-    speed: 10000,
-    allowTouchMove: false,
-    autoplay: {
-        delay: 0,
-    }
+  loop: true,
+  slidesPerView: 1,
+  speed: 10000,
+  allowTouchMove: false,
+  autoplay: {
+      delay: 0,
+  }
 });
 
-const btn = document.getElementsByClassName('tab_btn');
-for (var i = btn.length -1; i >= 0; i--) {
-    btnAction(btn[i],i);
-}
-function btnAction(btnDOM,btnId){
-    btnDOM.addEventListener("click", function(){
-    this.classList.toggle('activeOn');
 
-    for (var i = btn.length -1; i >=0; i--) {
-        if(btnId !== i){
-            if(btn[i].classList.contains('activeOn')){
-                    btn[i].classList.remove('activeOn');
-            }
-        }}
-    })
+const filterButtons = document.querySelectorAll('[data-filter]');
+const categoryContents = document.querySelectorAll('[data-category]');
+
+filterButtons.forEach((filterButton) => {
+  filterButton.addEventListener('click', buttonSwitch);
+  filterButton.addEventListener('click', categoryFilter);
+});
+
+function buttonSwitch() {
+  filterButtons.forEach((filterButton) => {
+    filterButton.classList.remove("activeOn");
+    this.classList.add('activeOn');
+  });
 }
+
+function categoryFilter() {
+  const buttonCategory = this.dataset.filter;
+  const targetContents = document.querySelectorAll('[data-category="' + buttonCategory + '"]');
+
+  categoryContents.forEach((categoryContent) => {
+
+    categoryContent.animate([{
+        opacity: 0
+      },
+      {
+        opacity: 1
+      }
+    ], {
+      duration: 600,
+      fill: 'forwards'
+    });
+
+    if (buttonCategory == 'all') {
+      categoryContent.classList.add('is-show');
+    } else {
+      categoryContent.classList.remove("is-show");
+      targetContents.forEach((targetContent) => {
+        targetContent.classList.add('is-show');
+      });
+    }
+  });
+}
+
 
 window.addEventListener('scroll',function(){
     const scroll = window.scrollY;
