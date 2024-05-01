@@ -78,7 +78,6 @@
 }
 .lang_nav a {
     color: #666666;
-    display: flex;
     margin-left: 6.5px;
     text-decoration: none;
 }
