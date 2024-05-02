@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 /*header*/
 .header {
-    padding: 55px 58px;
     width: 100%;
     z-index: 10;
 }
@@ -15,17 +14,20 @@
     opacity: 1;
     visibility: visible;
 }
-.nav_fix {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    z-index: 20;
+.sp_headerright {
+    position: fixed;
+    top: 65px;
+    right: 75px;
+    z-index: 10;
 }
 .header_illust img {
     position: fixed;
+    top: 55px;
+    left: 58px;
     display: block;
     height: 42px; 
     width: 60px;
+    z-index: 10;
 }
 .hamburger_menu {
     display: none;
@@ -33,7 +35,9 @@
 .global_nav {
     display: inline-block;
     position: fixed;
-    margin: 54px 0 29px;   
+    top: 155px;
+    left: 58px;
+    z-index: 10;
 }
 .main_nav {
     color: #333333;
@@ -137,7 +141,16 @@
         transition: all .2s;
         height: 100vh;
         width: 100vw;
-        padding: 105px 60px;
+        padding: 100px 100px;
+    }
+    .nav03link_external span img {
+        height: 10px;
+        width: 10px;
+        margin-bottom: 7px;
+        margin-left: 5px;
+    }
+    .main_nav li a {
+        font-size: 20px;
     }
     .global_nav.open {
         opacity: 1;
@@ -149,13 +162,16 @@
         padding: 25px 32px;
     }
     .header_illust img {
-        height: 42px; 
-        width: 60px;
+        height: 30px; 
+        width: 43px;
+        top: 25px;
     }
     .sp_headerright {
         display: flex;
         gap: 36px;
         align-items: center;
+        top: 25px;
+        right: 50px;
     }
     .main_nav {
         color: #333333;
@@ -178,12 +194,11 @@
 .swiper-wrapper {
     transition-timing-function: linear;
     display: flex;
-    position: absolute;
-    z-index: 2;
+    position: relative;
 }
 .swiper-slide img {
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
 }
 .top_main_logo {
     position: absolute;
