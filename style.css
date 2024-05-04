@@ -8,7 +8,7 @@
 .fadeScreen {
     opacity: 0;
     visibility: hidden;
-    transition: all 5s;
+    transition: all 1s;
 }
 .fadeScreen.is-show {
     opacity: 1;
@@ -358,7 +358,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all 1s;
-    transform: translateY(150px); 
+    transform: translateY(50px); 
 }
 .top_seiji_illust {
     margin: 0 auto;
@@ -462,7 +462,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all 1s;
-    transform: translateY(150px);
+    transform: translateY(50px);
 }
 .top_shop >.top_shop_inner {
     margin: 0 auto;
@@ -607,7 +607,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all 1s;
-    transform: translateY(150px);
+    transform: translateY(50px);
 }
 .top_news > .top_news_inner {
     margin: 0 auto;
@@ -800,8 +800,8 @@
 }
 .Page-Top {
     position: fixed;
-    top: 667.5px;
     right: 30px;
+    bottom: 42px;
     /*デフォルトは非表示*/
     opacity: 0;
     visibility: hidden;

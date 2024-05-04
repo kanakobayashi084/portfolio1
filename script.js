@@ -2,8 +2,6 @@ const fades = document.querySelectorAll ('.fadeScreen');
 fades.forEach( fadeScreen => {
     fadeScreen.classList.add('is-show');
 });
-setTimeout(fades,600);
-
 
 const hamburger = document.querySelector('.hamburger_menu');
 const nav = document.querySelector('.global_nav');
