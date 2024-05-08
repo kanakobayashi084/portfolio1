@@ -242,14 +242,14 @@ html,body {
         padding-top: 200px;
     }
 }
-/*top_andy*/
-.top_andy { 
+/*top_shiro*/
+.top_shiro { 
     background-color: #EBEBEB;
     color: #333333;
     font-style: normal;
     width: 100vw;
 }
-.top_andy_inner {
+.top_shiro_inner {
     margin: 0 auto;
     padding: 100px 0 116px;
     width: 51.2%;
@@ -258,42 +258,43 @@ html,body {
     transition: all 1s;
     transform: translateY(0);
 }
-.top_andy_illust {
+.top_shiro_illust {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     width: 34%;
 }
-.top_andy_illust img { 
+.top_shiro_illust img { 
     height: 167px;
     width: 202px
 }
-.top_andy_ttl h2 {
+.top_shiro_ttl h2 {
     font-size: 3.0rem;
-    height: 60px;
     font-weight: 900;
     margin-top: 77px;
     line-height: 1;
     text-align: center;
 }          
-.top_andy_ttl_ja h2 {
+.top_shiro_ttl_ja h2 {
     font-size: 20px;
     font-weight: 700;
     margin-top: 8px;
     text-align: center;
 }
-.top_andy_txt {
+.top_shiro_txt {
     font-size: 18px;
     font-weight: 700;
     margin-top: 100px;
     text-align: center;
     line-height: 2;
 }
-.top_andy_linkmore {
+.top_shiro_linkmore {
     color: inherit;
     height: 25px;
     margin-top: 59px;
     text-align: center;
 }
-.top_andy_linkmore a {
+.top_shiro_linkmore a {
     color: #333333; 
     font-size: 25px;
     font-style: normal;
@@ -301,10 +302,10 @@ html,body {
     padding-right: 26px;
     text-decoration: none;
 }
-.top_andy_linkmore a:hover {
+.top_shiro_linkmore a:hover {
     opacity: 0.7;
 }
-.top_andy_link img {
+.top_shiro_link img {
     width: 12px;
     height: 12px;
     margin-left:10px; 
@@ -313,15 +314,15 @@ html,body {
     display: none;
 }
 @media screen and (max-width: 768px) {
-    .top_andy > .top_andy_inner {
+    .top_shiro > .top_shiro_inner {
         margin: 0 auto;
         padding: 49px 0 70px;
         width: 86.66%;
     }
-    .top_andy_illust img { 
+    .top_shiro_illust img { 
         width: auto;
     }
-    .top_andy_ttl h2 {
+    .top_shiro_ttl h2 {
         width: auto;
         font-size: 1.5rem;
         font-style: normal;
@@ -329,28 +330,27 @@ html,body {
         margin-top: 34px;
         height: 28px;
     }
-    .top_andy_ttl_ja h2 {
+    .top_shiro_ttl_ja h2 {
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
         margin-top: 0px;
-        height: 32px;
         line-height: 2.5;
     }
-    .top_andy_txt {
+    .top_shiro_txt {
         font-size: 14px;
         line-height: 2;
         margin-top: 36px;
         text-align: center; 
         font-family:'Noto Sans JP';
     }
-    .top_andy_linkmore {
+    .top_shiro_linkmore {
         color: inherit;
         height: 25px;
         margin-top: 59px;
         text-align: center;
     }
-    .top_andy_linkmore a {
+    .top_shiro_linkmore a {
         font-size: 20px;
         font-style: normal;
         font-weight: 700; 
@@ -366,14 +366,14 @@ html,body {
         width: 100vw;
     }
 }
-/*top_seiji*/
-.top_seiji {
+/*top_hanako*/
+.top_hanako {
     background-color: #FFFFFF;
     color: #333333;
     font-style: normal;
     width: 100vw;
 }
-.top_seiji_body {
+.top_hanako_body {
     width: 46.93%;   
     margin: 140px auto 156px;
     opacity: 0;
@@ -381,60 +381,60 @@ html,body {
     transition: all 1s;
     transform: translateY(50px); 
 }
-.top_seiji_illust {
+.top_hanako_illust {
     margin: 0 auto;
     width: 26.35%;
 }
-.top_seiji_illust img {
+.top_hanako_illust img {
     width: 100%;
 }
-.top_seiji_ttl h2 {
+.top_hanako_ttl h2 {
     font-size: 3.0rem;
     font-weight: 700;
     line-height: 1;
     margin-top: 77px;
     text-align: center; 
 }
-.top_seiji_ttl_ja h2 {
-    font-size: 1.0rem;
+.top_hanako_ttl_ja h2 {
+    font-size: 1.3rem;
     font-weight: 700; 
     text-align: center; 
     margin-top: 8px; 
 }
-.top_seiji_txt {
+.top_hanako_txt {
     font-size: 16px;
     margin-top: 49px;
     line-height: 2;
 }
-.top_seiji_linkmore {
+.top_hanako_linkmore {
     color: inherit;
     margin-top: 29px;
 }
-.top_seiji_linkmore a {
+.top_hanako_linkmore a {
     color: #333333;
     font-size: 25px;
     font-weight: 700;
     text-decoration: none;
 }
-.top_seiji_linkmore a:hover {
+.top_hanako_linkmore a:hover {
     opacity: 0.7;
 }
-.top_seiji_link img {
+.top_hanako_link img {
     width: 12px;
     height: 12px;
     margin-left:10px; 
 }
 @media screen and (max-width: 768px) {
-    .top_seiji_body {
+    .top_hanako_body {
         width: 70.66%;   
         margin: 65px auto 0; 
     }
-    .top_seiji_illust {
+    .top_hanako_illust {
         margin: 0 auto;
         min-width: 137px;
         width: 36.52%;
     }
-    .top_seiji_ttl h2 {
+    .top_hanako_ttl h2 {
         color: #333333;
         font-size: 1.4rem;
         font-style: normal;
@@ -443,7 +443,7 @@ html,body {
         margin-top: 34px;
         text-align: center; 
     }
-    .top_seiji_ttl_ja {
+    .top_hanako_ttl_ja {
         color: #333333;
         font-size: 0.8rem;
         font-style: normal;
@@ -451,18 +451,18 @@ html,body {
         text-align: center; 
         margin-top: 0px; 
     }
-    .top_seiji_txt {
+    .top_hanako_txt {
         font-size: 14px;
         line-height: 1.85;
         margin-top: 36px;
         overflow-wrap: break-word;
         padding: 0;
     }
-    .top_seiji_linkmore {
+    .top_hanako_linkmore {
         text-align: center;
         margin-bottom: 78px;
     }
-    .top_seiji_linkmore a {
+    .top_hanako_linkmore a {
         color: #333333;
         font-size: 20px;
         font-style: normal;
@@ -545,8 +545,8 @@ html,body {
     box-sizing: border-box;
 }
 .shop_item_ph img {
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 50%;
@@ -659,7 +659,7 @@ html,body {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.5;
-    width: 12%;
+    width: 11%;
 }
 .top_news_post {
     width: 74%;
@@ -896,14 +896,14 @@ html,body {
         padding: 254px 0 46px;
     }
     .footer_copyrights img {
-        height: 15%;
-        width: 15%;
+        height: 30%;
+        width: 30%;
     }
 }
 @media screen and (max-width: 599px) {
     .footer_logo  {
         background-color: #EBEBEB;
-        margin-top: 74px;
+        margin-top: 64px;
         padding: 254px 0 46px;
         text-align: center;
         width: 100vw;
