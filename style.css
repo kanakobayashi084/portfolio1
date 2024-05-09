@@ -173,8 +173,8 @@ html,body {
     }
 }
 @media screen and (max-width: 599px) {
-    .global_nav.open {
-        padding-left: 46px;
+    .global_nav {
+        padding-left: 75px;
     }
 }
 @media screen and (max-width: 768px) {
