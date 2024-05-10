@@ -481,7 +481,7 @@ html,body {
     width: 100vw;
 }
 .top_shop {
-    margin: 0 auto 0;
+    margin: 0 250px 0;
     padding: 107px 0 176px;
     width:71.42%;
     opacity: 0;
@@ -645,7 +645,7 @@ html,body {
     transform: translateY(50px);
 }
 .top_news > .top_news_inner {
-    margin: 0 auto;
+    margin: 0 100px;
     width: 86.66%;
 }
 .top_news_ttl h2 {
