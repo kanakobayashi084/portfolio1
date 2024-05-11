@@ -95,7 +95,7 @@ html,body {
     margin-left: 6.5px;
     text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .header {
         position: fixed;
         padding: 15px 50px;
@@ -177,7 +177,7 @@ html,body {
         padding-left: 75px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .header-fade {
         padding: 25px 32px;
     }
@@ -573,6 +573,12 @@ html,body {
     font-size: 13px;
     font-weight: 700;
 }
+@media screen and (max-width: 1280px) {
+    .top_shop {
+        width: auto;
+        margin: 190px auto 0;
+    }
+}
 @media screen and (max-width: 768px) {
     .top_shop {
         width: auto;
@@ -659,14 +665,13 @@ html,body {
     margin-top: 38px;
 }
 .top_news-filter {
-    display: flex;
-    flex-direction: column;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.5;
     width: 11%;
+    list-style: none;
 }
-.top_news-filter li {
+.top_news-filter li  span{
     background-color: #FFFFFF;
     color: #333333;
     display: inline-block;
@@ -680,7 +685,7 @@ html,body {
 .top_news-filter li:hover {
     opacity: 0.7;
 }
-.top_news-filter li.activeOn {
+.top_news-filter li span.activeOn {
     background-color: #333333;
     color: #FFFFFF;
     display: inline-block;
@@ -692,7 +697,7 @@ html,body {
     pointer-events: none;
 }
 .top_news_post {
-    width: 74%;
+    width: 80%;
 }
 .top_news-category {
     display: block;
@@ -780,14 +785,20 @@ html,body {
     margin-left:10px;
     width: 12.41px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .top_news {
-        margin: 87px auto 0;
+        margin: 190px auto 0;
         width: auto;
     }
     .top_news > .top_news_inner {
         margin: 0 auto;
         width: 86.66%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .top_news {
+        margin: 87px auto 0;
+        width: auto;
     }
     .common_hd_fonten h2 {
         font-size: 30px;
@@ -803,7 +814,7 @@ html,body {
         width: auto;
     }
     .top_news-filter {
-        flex-direction: row;
+        display: flex;
         margin-left: 0;
         margin-bottom: 20px;
     }
